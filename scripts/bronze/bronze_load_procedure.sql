@@ -31,7 +31,7 @@
       Fully reloaded Bronze layer tables ready for cleaning and transformation
       in the Silver layer.
 
-  Author:        Jameel H.
+  Author:        Jameel Hanouneh.
   Tools Used:    Microsoft SQL Server (T-SQL, BULK INSERT)
 ===============================================================================*/
 
