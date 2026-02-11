@@ -1,5 +1,5 @@
 /*===============================================================================
-  Script:        ddl_bronze.sql
+  Script:        bronze_load_procedure.sql
   Project:       Soccer Data Warehouse
   Layer:         Bronze (Raw Data Ingestion)
 
