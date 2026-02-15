@@ -124,8 +124,6 @@ DROP VIEW gold.matches;
 GO
 CREATE VIEW gold.matches AS
 SELECT 
-	m.match_id,
-	m.league_id,
 	m.matchday,
 	m.home_team_id,
 	m.away_team_id,
@@ -134,6 +132,7 @@ SELECT
 	sc.half_time_home,
 	sc.half_time_away,
 	winner,
+	l.name AS league_name,
 	s.year,
 	m.utc_date
 FROM silver.matches m
@@ -141,6 +140,8 @@ LEFT JOIN silver.seasons s
 ON m.season_id = s.season_id
 LEFT JOIN silver.scores sc
 ON m.match_id = sc.match_id
+LEFT JOIN silver.leagues l
+ON m.league_id = l.league_id
 GO
 
 --==================================================
