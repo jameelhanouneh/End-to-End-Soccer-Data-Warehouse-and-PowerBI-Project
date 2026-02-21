@@ -10,7 +10,8 @@ The warehouse transforms raw CSV soccer data into clean, structured, and analyti
 
 ## Architecture
 
-![Data Architecture](/docs/)
+![Data Architecture](/docs/Data%20Architecture.png)
+
 The warehouse is organized into three layers:
 
 ### 🥉 Bronze Layer — Raw Data
@@ -28,8 +29,38 @@ The warehouse is organized into three layers:
 - Analytical views optimized for reporting
 - Source for analytics and BI dashboards
 
+![DataFlow](/docs/DataFlow.png)
 ---
 
 ## Folder Structure
+data-warehouse/
+│
+├── scripts/
+│ ├── bronze/
+│ ├── silver/
+│ ├── gold/
+│
+│── docs/
+└── README.md
 
+
+---
+
+## Technologies
+
+- Microsoft SQL Server
+- T-SQL
+- ETL Processes
+- Data Warehousing Concepts
+
+---
+
+## Role in the Project
+
+This layer provides the foundation for:
+
+- Analytical SQL queries (analytics folder)
+- Power BI dashboards (powerbi folder)
+
+It represents the data engineering component of the end-to-end pipeline.
 
