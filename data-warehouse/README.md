@@ -32,19 +32,6 @@ The warehouse is organized into three layers:
 ![DataFlow](docs/DataFlow.png)
 ---
 
-## Folder Structure
-data-warehouse/
-│/n
-├── scripts/ /n
-│ ├── bronze/
-│ ├── silver/
-│ ├── gold/
-│
-│── docs/
-└── README.md
-
-
----
 
 ## Technologies
 
